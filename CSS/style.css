@@ -1,0 +1,187 @@
+@charset "UTF-8";
+
+html {
+  font-size: 20px; }
+
+* {
+  margin: 0px;
+  padding: 0px; }
+
+body {
+  font-family: 'Architects Daughter'; }
+
+  
+  .principalbanner {
+    color: white;
+    background: url('https://i.icanvas.com/list-hero/yoga-DRO679.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   }
+
+   .principalbanner h1{
+    margin: 0;
+    text-shadow: 2px 2px 6px #000;
+    text-align: center;
+    font-weight: bold;
+    font-size: 80px; 
+  }
+
+header nav .flexMenu {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  list-style: none;
+  justify-content: space-evenly;
+  padding: 40px;
+  font-size: 40px; }
+
+.flexMenu li a {
+  text-decoration: none;
+  color: #483d8b; }
+
+
+  table {
+    border-spacing: 0.5rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  td {
+    padding: 0.5rem;
+  }
+
+  td:nth-child(1) { background: #ffffff; }
+  td:nth-child(2) { background: #E01A4F; }
+  td:nth-child(3) { background: #C879FF; }
+  td:nth-child(4) { background: #FFB7FF; }
+  td:nth-child(5) { background: #ff8eff; }
+  td:nth-child(6) { background: #7062cf; }
+
+
+
+
+.profiletext {
+  background-color: rgba(red, green, blue, alpha); 
+  font-size: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center; 
+}
+
+.form {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center; 
+}
+
+.imagen {
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+
+.profilepic {
+  width:360px;
+  height:450px;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  }
+
+footer {
+  background-color: rgba(red, green, blue, alpha);
+  width: 100%;
+  height: 100px;
+  padding: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  
+
+}
+
+footer p {
+  font-size: 20px;
+  text-align: center; }
+
+
+  /**Tablets**/
+  
+  @media only screen and (max-width: 700px) {
+
+
+    h1 { font-size: 60px; }
+
+    .principalbanner {
+      height: 20%;
+    }
+  
+
+      .contentText {
+        font-style: normal;
+         font-size: 20px;
+         text-align: center;
+         color: black;
+        }  
+
+      .profilepic {
+       display: none;
+        }
+
+      .imagen {
+       display: none;
+       }
+
+          
+  
+    .footer {
+      padding: 1px;
+      margin-left: auto;
+      margin-right: auto;
+      font-size: 12px;     
+      text-align: center ;
+      }
+
+  }
+
+/**Mobile devices**/
+
+@media only screen and  (max-width: 500px) {
+
+
+  h1 { font-size: 40px; }
+
+  .principalbanner {
+    height: 10%;
+  }
+
+
+    .contentText {
+      font-style: normal;
+       font-size: 15px;
+       text-align: center;
+       color: black;
+      }  
+
+     .profilepic {
+       display: none;
+      }
+
+   .imagen {
+    display: none;
+     }
+
+
+  .footer {
+    padding: 1px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 12px;     
+    text-align: center ;
+  }
+
+  }
+

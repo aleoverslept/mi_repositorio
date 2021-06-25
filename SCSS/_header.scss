@@ -1,0 +1,34 @@
+.principalbanner {
+	color: white;
+	background: url('https://i.icanvas.com/list-hero/yoga-DRO679.jpg');
+	background-position: center;
+	background-repeat: no-repeat;
+	height: 300px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+  
+	h1 {
+	  margin: 0;
+	  text-shadow: 2px 2px 6px #000;
+	  text-align: center;
+	  font-weight: bold;
+	  font-size: 80px;
+	}
+  }
+  
+  header nav .flexMenu {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	list-style: none;
+	justify-content: space-evenly;
+	padding: 40px;
+	font-size: 40px;
+  }
+  
+  .flexMenu li a {
+	text-decoration: none;
+	color: #483d8b;
+  }
+
